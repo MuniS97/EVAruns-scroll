@@ -1,0 +1,392 @@
+@media (max-width:1060px) {
+    .main_block {
+        grid-template-columns: repeat(2, 344px);
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .main_right figure img {
+        width: 450px;
+        height: 500px;
+    }
+
+    .modal_window_block {
+        width: 900px;
+    }
+
+    .cont {
+        width: 850px;
+    }
+
+    .input_flex input {
+        width: 410px;
+        padding: 0;
+    }
+
+    .cont textarea {
+        width: 830px;
+    }
+}
+
+@media (max-width:992px) {
+    .main_nav ul li:nth-child(1) {
+        display: none;
+    }
+
+    .main_nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0;
+    }
+
+    .main_nav ul li:nth-child(2) a {
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    header {
+        padding: 36px 0 26px;
+    }
+
+    .header_burger {
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header_logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        transition: all ease-in-out 400ms;
+    }
+
+    .header_logo figure img {
+        width: 100px;
+        height: 60px;
+        cursor: pointer;
+        transition: all ease-in-out 400ms;
+    }
+
+    .header_logo figure img:hover {
+        width: 105px;
+        height: 65px;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        height: 1000px;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 100;
+        overflow-y: auto;
+        padding: 40px 50px;
+        background-color: gainsboro;
+        padding: 0;
+        animation: bg 1s;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        row-gap: 30px;
+        padding: 100px 0;
+        transition: all ease-in-out 400ms;
+    }
+
+    .nav ul li a {
+        color: black;
+    }
+
+    .absolute_img1_section_1 {
+        animation: none;
+    }
+
+    .absolute_img2_section_1 {
+        bottom: 40%;
+        left: 65%;
+        animation: none;
+    }
+
+    .main_left h1 {
+        font-size: 35px;
+    }
+
+    .main_left p {
+        font-size: 18px;
+    }
+
+    .section1 h2 {
+        font-size: 35px;
+    }
+
+    .st1_h3 {
+        font-size: 30px;
+    }
+
+    .modal_window_block {
+        width: 600px;
+    }
+
+    .cont {
+        width: 580px;
+    }
+
+    .input_flex input {
+        width: 230px;
+        padding: 0;
+    }
+
+    .cont textarea {
+        width: 470px;
+    }
+}
+
+@keyframes bg {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width:768px) {
+    .swiper-slide {
+        width: 300px;
+        height: 300px;
+        padding: 0 20px;
+    }
+
+    .swiper-slide img {
+        display: none;
+    }
+
+    .swiper-slide p {
+        padding: 80px 0 20px;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .absolute_img1 {
+        animation: none;
+        right: 10%;
+        top: 15px;
+    }
+
+    .main_left h1 {
+        padding: 50px 0 0;
+    }
+
+    .main_right figure img {
+        padding: 50px 0 0;
+    }
+
+    .main_block {
+        grid-template-columns: repeat(1, 400px);
+    }
+
+    .block1,
+    .block2,
+    .block3 {
+        width: 400px;
+    }
+
+    .footer_block {
+        flex-direction: column;
+        padding: 50px 0;
+    }
+
+    .footer_absolute {
+        width: 300px;
+        height: 300px;
+        top: 0;
+        animation: none;
+    }
+
+    .footer_absolute2 {
+        animation: none;
+    }
+
+    .absolute_img2_section_1 {
+        left: 10%;
+    }
+
+    .modal_window {
+        width: 100%;
+    }
+
+    .modal_window_block {
+        width: 550px;
+    }
+
+    .cont {
+        width: 500px;
+    }
+
+    .input_flex input {
+        width: 230px;
+        padding: 0;
+    }
+
+    .cont textarea {
+        width: 470px;
+    }
+
+    .modal_window {
+        height: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .main {
+        padding: 60px 0 0 ;
+    }
+    .main_nav ul li:nth-child(2) a {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .nav ul li {
+        gap: 5px;
+        flex-direction: column;
+    }
+
+    .input_flex {
+        flex-direction: column;
+    }
+
+    .absolute_img1_section_1 {
+        width: 300px;
+        height: 350px;
+    }
+
+    .main_block {
+        grid-template-columns: repeat(1, 300px);
+    }
+
+    .block1,
+    .block2,
+    .block3 {
+        width: 300px;
+    }
+
+    .absolute_img1_section_1 {
+        width: 200px;
+        height: 250px;
+    }
+
+    .main_img {
+        display: none;
+    }
+
+    .name_of_company {
+        display: none;
+    }
+
+    .footer_absolute2 {
+        width: 200px;
+        height: 250px;
+        top: 50%;
+    }
+
+    .modal_window_block {
+        width: 300px;
+    }
+
+    .cont {
+        width: 280px;
+        gap: 5px;
+    }
+
+    .input_flex input {
+        width: 270px;
+        padding: 0;
+    }
+
+    .cont textarea {
+        width: 270px;
+    }
+
+    .main_right figure img {
+        right: -100px;
+        top: -300px;
+        width: 300px;
+        height: 250px;
+        z-index: -10;
+    }
+
+    .main_left {
+        text-align: center;
+        align-items: center;
+    }
+
+    .main_left h1 {
+        padding-bottom: 20px;
+        font-size: 30px;
+    }
+
+    .main_left p {
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 360px) {
+    .main {
+        padding: 50px 0 0;
+    }
+    .main_nav ul li:nth-child(2) a {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .main_left h1 {
+        font-size: 30px;
+    }
+
+    .main_left p {
+        font-size: 15px;
+    }
+
+    .section1 h2 {
+        font-size: 30px;
+    }
+
+    .main_block {
+        grid-template-columns: repeat(1, 260px);
+    }
+
+    .block1,
+    .block2,
+    .block3 {
+        width: 260px;
+    }
+
+    .main_right figure img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .modal_window {
+        height: 100%;
+    }
+
+    .modal_window_block {
+        width: 300px;
+    }
+
+}
